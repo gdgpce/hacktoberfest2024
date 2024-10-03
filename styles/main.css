@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #1c1c1c;
+    --secondary-color: #fefdf8;
+    --accent-color-1: #50da4c;
+    --accent-color-2: #c401c4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+main {
+    display: block;
+    min-height: 100vh;
+    position: relative;
+}
+
+.section{
+    height: 100vh;
+}
