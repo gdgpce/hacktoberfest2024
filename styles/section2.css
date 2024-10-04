@@ -1,0 +1,86 @@
+
+#sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+/* Upper part (Spooky Text Part) */
+.sec2-upper {
+    height: 200px;
+    width: 100%;
+    padding: 3%;
+
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.sec2-upper span{
+    color: var(--accent-color-2);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.sec2-upper p {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+/* Lower Part (Image and Text) */
+
+.sec2-lower {
+    height: 75%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+}
+
+.sec2-lower-left img{
+    height: 100%;
+    width: 100%;
+
+    margin-top: 11%;
+}
+.sec2-lower-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+.sec2-lower-left-text {
+    color: var(--primary-color);
+    position: absolute;
+    top: 33%;
+    left: 26%;
+    font-size: 3.6rem;
+    font-weight: 500;
+    z-index: 3;
+}
+
+.sec2-lower-right{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-lower-right h2{
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--accent-color-1);
+}
+
+.sec2-lower-right p{
+    font-size: 2rem;
+    font-weight: 300;
+}

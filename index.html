@@ -7,9 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/section1.css">
+    <link rel="stylesheet" href="./styles/section2.css">
     <link rel="stylesheet" href="./styles/section3.css">
 
 </head>
@@ -45,31 +48,68 @@
                 </div>
             </section>
         </div>
+
+        
         <div class="section" id="sec2">
-            <h1>Section2</h1>
+
+            <div class= "sec2-upper" data-aos="fade-up" data-aos-duration = "600">
+                <h4><span class = "sec2-spooky">Spooky Season is Here,</span></h4>
+                <p>but the only thing scarier than October is missing out on our Hackathon! <br> 
+            Ready to code the Future?</p>
+            </div>
+
+            <div class = "sec2-lower">
+
+                <div class="sec2-lower-left" data-aos = "fade-up-right" data-aos-duration="800" data-aos-anchor-placement = "top-center" data-aos-easing = "ease-in">
+                    <img src="./img/block.png" alt="">
+                    <span class="sec2-lower-left-text" >About<br>Hacktoberfest</span>
+                </div>
+
+                <div class="sec2-lower-right" data-aos = "fade-up-left" data-aos-duration="800" data-aos-anchor-placement = "top-center" data-aos-easing = "ease-in">
+                    <div class="sec-2-lower-right-wrapper">
+                        <h2>Let's Celebrate</h2>
+                        <p>The Spirit of Open Source <br> and contribute to exciting <br> projects this October!</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
+
+
+
         <div class="section" id="sec3">
            <div class="sec3-img">
                 <img src="img/dots.png">
            </div>
                 
-            
-                <h1>Hacktoberfest 2024</h1>
-                <p>
+            <h1>Hacktoberfest 2024</h1>
+            <p>
                 is a global celebration of open-source, inviting developers of all 
                 levels to contribute to projects on GitHub and GitLab.
                 Throughout October, participants can improve software, learn
                 from others, and earn rewards, all while helping to shape the
                 future of technology. Join us and be a part of this vibrant coding 
                 community!
-                </p>
+            </p>
         </div>
+
+
         <div class="section" id="sec4">
             <h1>Section4</h1>
         </div>
+
+
         <div class="section" id="sec5">
             <h1>Section5</h1>
         </div>
+
+
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
