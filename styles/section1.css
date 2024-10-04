@@ -121,16 +121,20 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background-image: url("../img/hero.png"); 
+    background-image: url("../img/hero.jpeg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 130vh; 
+    height: 90vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
+}
+
+#sec1 {
+    height: auto;
 }
 
 
