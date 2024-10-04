@@ -1,0 +1,33 @@
+#sec3{
+    .sec3-img{
+        position: relative;
+        padding-bottom: 100px;
+    }
+    h1 {
+        text-align: left;
+        font-size: 7vh;
+        color: var(--accent-color-1); 
+        padding-left: 100px;
+    }
+    p{
+        text-align: center;
+        line-height: 1.6;
+        margin: 0;
+        color:#FEFDF8;
+        font-size:35px;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: justify;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        letter-spacing: -1px; 
+    }
+  img{
+    position: absolute;
+    top: 50px; 
+    right: 50px;
+    width: 550px; 
+    height: auto; 
+    z-index: 2;
+  }
+    }
