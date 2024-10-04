@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 20px 50px;
+    height: 80px;
+    
+}
+
+.nav-logo {
+    height: 40px;
+}
+
+.navbar-main {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address {
+    margin-left: 20px;
+}
+
+.add-first {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.add-sec {
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+
+.navbar-info ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-info ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-info ul li a {
+    text-decoration: none;
+    margin: 0 40px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.navbar-info ul li a:hover
+{
+    color: #C401C4;
+}
+
+.navbar-info ul li a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: #50DA4C;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.4s ease;
+}
+
+.navbar-info ul li a:hover::after {
+    width: 100%;
+}
+
+.add-start button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #50DA4C;
+    background: transparent;
+    color: white;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.add-start button span {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #50DA4C;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.add-start button:hover span {
+    width: 100%;
+}
+
+.add-start button:hover {
+    color: #1c1c1c;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url("../img/hero.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
