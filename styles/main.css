@@ -36,3 +36,50 @@ main {
 .section{
     height: 100vh;
 }
+
+.footer-container{
+    width:100%;
+    height:50vh;
+    display:flex;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+.footer-left{
+    width:60%;
+    height:100%;
+    align-items: center;
+
+}
+.footer-right{
+    width:40%;
+    height: 100%;
+    
+    
+}
+.footer-left img{
+    height:25vh;
+    width: auto;
+    padding: 1%;
+    margin-left: 10%;
+    
+}
+.footer-right img{
+    filter: invert(100%);
+    height:5vh;
+    margin-right: 10px;
+}
+.footer-right a{
+    text-decoration: none;
+    color:var(--secondary-color);
+    
+    
+}
+.align{
+    display:flex;
+    align-items:center ;
+    justify-content: left;
+    padding-left: 10px;
+}
+.footer-right p{
+    font-weight: 500;
+}

@@ -1,0 +1,48 @@
+#sec5{
+    height:auto;
+    padding-bottom: 10%;
+    .sec5-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    
+    .sec5-get-started-btn {
+        font-size: 32px;
+        font-weight: bold;
+        color: #fefdf8;
+        background-color: #C401C4;
+        padding: 20px 60px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.5s ease-in;
+        transition: color 0.5s ease-out;
+        
+    }
+    
+    .sec5-get-started-btn:hover {
+        background-color: var( --accent-color-1);
+        color:var(--primary-color);
+
+    }
+   
+
+.sec5-img{
+    position: relative;
+    padding-bottom: 200px;
+    align-items: center;
+}
+img{
+    position: absolute;
+    top: 50px; 
+
+    width: 100%; 
+    height:auto;
+    z-index: 2;
+    align-items: center;
+    
+  }
+} 
