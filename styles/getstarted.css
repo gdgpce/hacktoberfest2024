@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--secondary-color);
+}
+
+/* Headings and Subheadings*/
+
+.hero-container h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--accent-color-1);
+  text-align: center;
+  padding: 0 0 0 3% ;
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--accent-color-2);;
+  text-align: left;
+  padding: 0 0 0 3% ;
+  margin: 20px 0 10px 0;
+}
+
+/* Styling cards */
+
+.repo-card {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+
+  min-height: 470px;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-items: stretch;
+
+  margin: 30px 15px;
+  border: 2px solid var(--accent-color-1);
+
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card Hover Effect */
+.repo-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 15px var(--accent-color-1); 
+}
+/* Card Hover Effect Ends*/
+
+.card-header{
+  padding: 0;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid var(--accent-color-1);
+  background-color: var(--accent-color-1);
+  width: 100%;
+}
+
+.card-title{
+  text-align: center;
+  padding: 20px; 
+  color: var(--primary-color);
+  width: 100%;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.card-body{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.card-body > :last-child {
+  margin-top: auto;
+}
+
+.card-desc {
+  font-weight: 300;
+}
+
+.card-tech, .card-desc{
+  padding: 0 0 0 10px;
+  font-size: 1.3rem;
+}
+
+.card-link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.card-link img{
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+
+.card-link a{
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+
+  border: 2px solid var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Button Hover Effect */
+.card-link a:hover {
+  background-color: #333333; 
+  border-color: var(--accent-color-1);
+}
+/* Button Hover Effect Ends*/
