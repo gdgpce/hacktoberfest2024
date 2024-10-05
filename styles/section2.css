@@ -28,6 +28,7 @@
 .sec2-upper p {
     font-weight: 300;
     font-size: 1.5rem;
+    color: var(--secondary-color);
 }
 
 /* Lower Part (Image and Text) */
@@ -83,4 +84,5 @@
 .sec2-lower-right p{
     font-size: 2rem;
     font-weight: 300;
+    color: var(--secondary-color);
 }
