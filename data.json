@@ -37,20 +37,71 @@
       }
     ],
     "Other Open Source Projects":[
-        {
-            "name": "XYz",
-            "description": "A project to generate badge cards for contributors.",
+       
+          {
+            "name": "airbnb",
+            "description": "JavaScript Style Guide",
             "topics": ["hacktoberfest"],
-            "languages": [],
-            "url": "http://github.com/gdg-pce/BadgeCardGenerator"
+            "languages": ["ES5(Deprecated),React, CSS-in-JS, CSS and SASS, Ruby"],
+            "url": "https://github.com/airbnb/javascript"
           },
           {
-            "name": "ABC",
-            "description": "A project to generate badge cards for contributors.",
+            "name": "DocsGPT",
+            "description": "GPT-powered chat for documentation, chat with your documents(Flask App)",
             "topics": ["hacktoberfest"],
-            "languages": [],
-            "url": "http://github.com/gdg-pce/BadgeCardGenerator"
+            "languages": ["Vite, React"],
+            "url": "https://github.com/arc53/DocsGPT"
+          },
+          {
+            "name": "Web-Dev",
+            "description": "A web development project for beginners",
+            "topics": ["hacktoberfest"],
+            "languages": ["HTML,CSS,JavaScript"],
+            "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+          },
+          {
+            "name": "Gradio",
+            "description": "Build and share delightful machine learning apps",
+            "topics": ["hacktoberfest"],
+            "languages": ["Python, FastAPI,PNpM, SVELTE, Vite, Storybook, tailwindcss"],
+            "url": "https://github.com/gradio-app/gradio"
+          },
+          {
+            "name": "dstack",
+            "description": "An alternative to kubernates, to simplify development, training and deployment of AI across any cloud or on prem",
+            "topics": ["hacktoberfest"],
+            "languages": ["Postgres, backend, frontend"],
+            "url": "https://github.com/dstackai/dstack"
+          },
+          {
+            "name": "Wren AI",
+            "description": "Open source SQL AI agent for Text-to-SQL",
+            "topics": ["hacktoberfest"],
+            "languages": ["SQL"],
+            "url": "https://github.com/Canner/WrenAI"
+          },
+          {
+            "name": "tolgee-platform",
+            "description": "Developer and translator friendly web-based localization platform",
+            "topics": ["hacktoberfest"],
+            "languages": ["React, Angular, Vue, Svelte, Next.js, Figma plugin, i18next, Vanilla js, Unreal Engine, Rest API"],
+            "url": "https://github.com/tolgee/tolgee-platform"
+          },
+          {
+            "name": "ToolJet",
+            "description": "Low-code platform for building business appplications",
+            "topics": ["hacktoberfest"],
+            "languages": ["JavaScript, Python"],
+            "url": "https://github.com/ToolJet/ToolJet"
+          },
+          {
+            "name": "first-contributors",
+            "description": "A project for beginners",
+            "topics": ["hacktoberfest"],
+            "languages": ["HTML,CSS,JavaScript"],
+            "url": "https://github.com/firstcontributions/first-contributions"
           }
+        
     ]
   }
   
