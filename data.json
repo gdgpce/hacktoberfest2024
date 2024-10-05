@@ -1,0 +1,56 @@
+{
+    "GDG PCE": [
+      {
+        "name": "Crypto Price Tracker",
+        "description": "A React app that tracks cryptocurrency prices using the CoinGecko API.",
+        "topics": ["hacktoberfest"],
+        "languages": ["JavaScript"],
+        "url": "http://github.com/gdg-pce/crypto-price-tracker"
+      },
+      {
+        "name": "DSA Challenges 2024",
+        "description": "A repository containing data structure and algorithm challenges for 2024.",
+        "topics": ["hacktoberfest"],
+        "languages": [],
+        "url": "http://github.com/gdg-pce/DSA-Challenges-2024"
+      },
+      {
+        "name": "Graphic Design 2024",
+        "description": "Graphic design-related projects for Hacktoberfest 2024.",
+        "topics": ["hacktoberfest"],
+        "languages": [],
+        "url": "http://github.com/gdg-pce/Graphic-Design-2024"
+      },
+      {
+        "name": "NewsApp",
+        "description": "A news application built for Hacktoberfest 2024.",
+        "topics": ["hacktoberfest"],
+        "languages": [],
+        "url": "http://github.com/gdg-pce/NewsApp"
+      },
+      {
+        "name": "Badge Card Generator",
+        "description": "A project to generate badge cards for contributors.",
+        "topics": ["hacktoberfest"],
+        "languages": [],
+        "url": "http://github.com/gdg-pce/BadgeCardGenerator"
+      }
+    ],
+    "Other Open Source Projects":[
+        {
+            "name": "XYz",
+            "description": "A project to generate badge cards for contributors.",
+            "topics": ["hacktoberfest"],
+            "languages": [],
+            "url": "http://github.com/gdg-pce/BadgeCardGenerator"
+          },
+          {
+            "name": "ABC",
+            "description": "A project to generate badge cards for contributors.",
+            "topics": ["hacktoberfest"],
+            "languages": [],
+            "url": "http://github.com/gdg-pce/BadgeCardGenerator"
+          }
+    ]
+  }
+  
