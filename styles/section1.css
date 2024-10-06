@@ -37,6 +37,7 @@ body {
 .add-first {
     font-size: 1.2rem;
     color: #ffffff;
+    margin: 0;
 }
 
 .add-sec {

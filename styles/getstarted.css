@@ -31,7 +31,7 @@ body{
 .repo-card {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-
+  cursor: pointer;
   min-height: 470px;
 
   display: flex;
