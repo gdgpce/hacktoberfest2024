@@ -5,35 +5,35 @@
         "description": "A web dashboard that fetches and displays real-time cryptocurrency prices using a API. Also shows current value of popular cryptocurrencies and updates automatically.",
         "topics": ["hacktoberfest"],
         "languages": ["React", "JavaScript"],
-        "url": "http://github.com/gdg-pce/crypto-price-tracker"
+        "url": "https://github.com/gdgpce/crypto-price-tracker"
       },
       {
         "name": "DSA Challenges 2024",
         "description": "A repository with data structure and algorithm challenges for 2024. Flex your algorithm skills and contribute your solutions.",
         "topics": ["hacktoberfest"],
         "languages": ["C++", "Java", "Python"],
-        "url": "http://github.com/gdg-pce/DSA-Challenges-2024"
+        "url": "https://github.com/gdgpce/DSA-Challenges-2024"
       },
       {
         "name": "NewsApp",
         "description": "A simple news app that displays the latest headlines across various categories using news APIs, providing real-time updates and an easy-to-use interface.",
         "topics": ["hacktoberfest"],
         "languages": ["HTML", "CSS", "JavaScript"],
-        "url": "http://github.com/gdg-pce/NewsApp"
+        "url": "https://github.com/gdgpce/NewsApp"
       },
       {
         "name": "Badge Card Generator",
         "description": "A React project that lets users create custom digital badges for contributiors, adding a personal touch to open-source participation.",
         "topics": ["hacktoberfest"],
-        "languages": ["React", "JavaScript"],
-        "url": "http://github.com/gdg-pce/BadgeCardGenerator"
+        "languages": ["HTML", "CSS", "JavaScript"],
+        "url": "https://github.com/gdgpce/BadgeCardGenerator"
       },
       {
         "name": "Graphic Design 2024",
         "description": "A collaborative repository for graphic design projects that encourages contributions of logos, banners, and illustrations, promoting creativity in open-source collaboration.",
         "topics": ["hacktoberfest"],
         "languages": ["Figma", "Illustrator"],
-        "url": "http://github.com/gdg-pce/Graphic-Design-2024"
+        "url": "https://github.com/gdgpce/Graphic-Design-2024"
       }
     ],
     "Other Open Source Projects":[

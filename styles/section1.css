@@ -22,6 +22,7 @@ body {
 
 .nav-logo {
     height: 40px;
+    mix-blend-mode: exclusion;
 }
 
 .navbar-main {
