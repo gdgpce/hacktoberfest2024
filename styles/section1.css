@@ -68,7 +68,7 @@ body {
 
 .navbar-info ul li a:hover
 {
-    color: #C401C4;
+    /* color: #C401C4; */
 }
 
 .navbar-info ul li a::after {
