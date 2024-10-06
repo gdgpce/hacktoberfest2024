@@ -1,32 +1,35 @@
 #sec3{
+  height:auto;
+  padding:8vh;
+  padding-bottom: 8%;
     .sec3-img{
         position: relative;
-        padding-bottom: 100px;
+        padding-bottom: 12.63vh;
     }
     h1 {
         text-align: left;
         font-size: 7vh;
         color: var(--accent-color-1); 
-        padding-left: 100px;
+        padding-left: 12.63vh;
     }
     p{
         text-align: center;
         line-height: 1.6;
         margin: 0;
         color:#FEFDF8;
-        font-size:35px;
-        padding-left: 100px;
-        padding-right: 100px;
+        font-size:4.42vh;
+        padding-left: 12.63vh;
+        padding-right: 12.63vh;
         text-align: justify;
         overflow-wrap: break-word;
         word-wrap: break-word;
-        letter-spacing: -1px; 
+        letter-spacing: -0.126vh; 
     }
   img{
     position: absolute;
-    top: -40px; 
-    right: 50px;
-    width: 550px; 
+    top: -5.1vh; 
+    right: 6.3vh;
+    width: 75.8vh; 
     height: auto; 
     z-index: 2;
   }
