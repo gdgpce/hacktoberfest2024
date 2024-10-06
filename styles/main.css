@@ -42,7 +42,7 @@ main {
     width:100%;
     height:50vh;
     display:flex;
-    padding-bottom: 1.262vh;
+    padding-bottom: 10px;
     font-size: larger;
 }
 .footer-left{
@@ -67,7 +67,7 @@ main {
 .footer-right img{
     filter: invert(100%);
     height:5vh;
-    margin-right: 1.262vh;
+    margin-right: 10px;
 }
 .footer-right a{
     text-decoration: none;
@@ -79,7 +79,7 @@ main {
     display:flex;
     align-items:center ;
     justify-content: left;
-    padding-left: 1.262vh;
+    padding-left: 10px;
 }
 .footer-right p{
     font-weight: 500;

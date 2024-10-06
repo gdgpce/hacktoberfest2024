@@ -5,19 +5,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 6.3vh;
+        padding-top: 50px;
     }
     
     .sec5-get-started-btn {
-        font-size: 4.04vh;
+        font-size: 32px;
         font-weight: bold;
         color: #fefdf8;
         background-color: #C401C4;
-        padding: 2.5vh 7.58vh;
-        border-radius:6.3vh;
+        padding: 20px 60px;
+        border-radius: 50px;
         border: none;
         cursor: pointer;
-        box-shadow: 0vh 1.262vh 2.5vh rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
         transition: background-color 0.5s ease-in;
         transition: color 0.5s ease-out;
         
@@ -32,13 +32,12 @@
 
 .sec5-img{
     position: relative;
-    padding-bottom: 25.252vh;
+    padding-bottom: 200px;
     align-items: center;
-    padding-top: 2%;
 }
 img{
     position: absolute;
-    top: 6.3vh; 
+    top: 50px; 
 
     width: 100%; 
     height:auto;
