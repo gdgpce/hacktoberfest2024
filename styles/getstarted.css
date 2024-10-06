@@ -4,6 +4,7 @@
 
 body{
   color: var(--secondary-color);
+  padding: 10px;
 }
 
 /* Headings and Subheadings*/
@@ -33,6 +34,7 @@ body{
   color: var(--secondary-color);
   cursor: pointer;
   min-height: 470px;
+  padding: 0;
 
   display: flex;
   flex-direction: column;
@@ -42,23 +44,23 @@ body{
 
   margin: 30px 15px;
   border: 2px solid var(--accent-color-1);
+  border-radius: 5px;
 
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: box-shadow 0.3s;
 }
 
 /* Card Hover Effect */
 .repo-card:hover {
-  transform: scale(1.05); 
   box-shadow: 0 0 15px var(--accent-color-1); 
 }
 /* Card Hover Effect Ends*/
 
-.card-header{
+.card-head{
   padding: 0;
-  border-radius: 5px 5px 0 0;
+  border-radius: 2px 2px 0 0;  
   border-bottom: 1px solid var(--accent-color-1);
+  box-sizing: border-box;
   background-color: var(--accent-color-1);
-  width: 100%;
 }
 
 .card-title{
