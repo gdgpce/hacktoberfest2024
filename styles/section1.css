@@ -66,11 +66,6 @@ body {
     padding-bottom: 5px;
 }
 
-.navbar-info ul li a:hover
-{
-    /* color: #C401C4; */
-}
-
 .navbar-info ul li a::after {
     content: '';
     display: block;
