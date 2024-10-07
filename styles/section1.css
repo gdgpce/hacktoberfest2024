@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1c1c1c;
-    padding: 20px 50px;
+    padding: 20px 30px;
     height: 80px;
     
 }
@@ -64,11 +64,6 @@ body {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 5px;
-}
-
-.navbar-info ul li a:hover
-{
-    /* color: #C401C4; */
 }
 
 .navbar-info ul li a::after {

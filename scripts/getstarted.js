@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     card.classList.add('col-md-4');
     card.innerHTML = `
       <div class="card repo-card">
-        <div class="card-header">
+        <div class="card-head">
           <h5 class="card-title">${repo.name}</h5>
         </div>
         <div class="card-body">
